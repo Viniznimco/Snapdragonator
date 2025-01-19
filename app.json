@@ -1,9 +1,9 @@
 {
-  "name":"Musicbot",
-  "description":"Deploy now your bot, MUSICBOT developed by ARLODRAGON himself.Make sure you fill all variables to avoid bot from sleeping. ",
+  "name":"Snapdragon",
+  "description":"Deploy now your bot, SNAPDRAGON developed by MSNAPDRAGON himself.Make sure you fill all variables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://i.imgur.com/2P5XR4f.jpeg",
-  "repository":"https://github.com/Kingdragony/Musicbot",
+  "logo":"https://i.imgur.com/aTXsVyH.jpeg",
+  "repository":"https://i.imgur.com/aTXsVyH.jpeg",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"🌎 MUSICBOT 🌎",
+      "value":"SNAPDRAGON 💥",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://i.imgur.com/2P5XR4f.jpeg",
+      "value":"https://i.imgur.com/aTXsVyH.jpeg",
       "required":false
        
      },
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "ARLODRAGON"
+    "value": "MSNAPDRAGON"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '254')",
     "required":false,
-    "value": "254702713600"
+    "value": "254704009677"
   },
     "WARN_COUNT":
   {

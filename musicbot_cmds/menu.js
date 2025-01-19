@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-> 🌎 MUSICBOT 🌎
+> SNAPDRAGON💥
 ╭─────────────────
 │⛓╭─────────────
 │✰│▸ *мєиυ* 
@@ -43,11 +43,11 @@ const date = moment().format('DD/MM/YYYY');
 │✰│▸ *ρℓυgιиѕ* : ${cm.length} 
 │✰│▸ *я.α.м* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │✰│▸ *ϐαяℓєγѕ* : ${os.platform()}
-│✰│▸ *🌎 MUSICBOT 🌎*
+│✰│▸ *SNAPDRAGON💥*
 │⛓╰──────────────
 ╰──────────────────\n`;
     
-let menuMsg = ` *MUSICBOT COMMANDS* `;
+let menuMsg = ` *SNAPDRAGON COMMANDS* `;
 
     for (const cat in coms) {
         menuMsg += `╭────────⎘ *${cat}* ⎗`;
@@ -59,7 +59,7 @@ let menuMsg = ` *MUSICBOT COMMANDS* `;
 ╰────────────···▸▸ \n`
     }
 
-    menuMsg += `> ARLODRAGON  IS MY OWNER
+    menuMsg += `> MSNAPDRAGON IS MY OWNER
 `;
 
    var lien = mybotpic();

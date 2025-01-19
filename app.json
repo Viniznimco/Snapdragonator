@@ -3,7 +3,7 @@
   "description":"Deploy now your bot, SNAPDRAGON developed by MSNAPDRAGON himself.Make sure you fill all variables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.imgur.com/aTXsVyH.jpeg",
-  "repository":"https://i.imgur.com/aTXsVyH.jpeg",
+  "repository":"https://github.com/Viniznimco/Snapdragon/tree/main",
   "succes_url":"/",
   "stack":"container",
   "env":{

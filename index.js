@@ -855,11 +855,11 @@ ${metadata.desc}`;
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
 ╔════◇
-║        『𝗠𝗨𝗦𝗜𝗖𝗕𝗢𝗧』
+║        『SNAPDRAGON』
 ║    𝗣𝗥𝗘𝗙𝗜𝗫 : [ ${prefixe} ]
 ║    𝗠𝗢𝗗𝗘 :${md}
 ║    𝗣𝗟𝗨𝗚𝗜𝗡𝗦 : ${evt.cm.length}︎
-║    𝗖𝗛𝗔𝗡𝗡𝗘𝗟:https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q
+║    𝗖𝗛𝗔𝗡𝗡𝗘𝗟:https://whatsapp.com/channel/0029Vb3JJ9gKwqSJQJfQvl1K
 ╚════════════════╝`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }

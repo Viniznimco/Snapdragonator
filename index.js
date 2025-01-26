@@ -812,22 +812,22 @@ ${metadata.desc}`;
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Musicbot Connecting...");
+                console.log("ℹ️ Snapdragon Connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Musicbot Connection Established! ☺️");
+                console.log("✅ Snapdragon Connection Established! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Musicbot is Online 🕸\n\n");
+                console.log("Snapdragon is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading Commands ...\n");
-                fs.readdirSync(__dirname + "/musicbot_cmds").forEach((fichier) => {
+                fs.readdirSync(__dirname + "/Snapdragon_cmds").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/musicbot_cmds/" + fichier);
+                            require(__dirname + "/Snapdragon_cmds/" + fichier);
                             console.log(fichier + " installed ✔️");
                         }
                         catch (e) {
